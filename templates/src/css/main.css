@@ -28,7 +28,18 @@ a {
 /* Header part */
 
 header.header {
-  margin:
+  margin: 0;
+  padding: 10px;
+  width: calc(100% - 10**2);
+  height: 5%;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.345);
+  background: #feefff;
+  display: block;
+  position: relative;
+}
+
+div.logotype h1.nav-title {
+  position: absolute;
 }
 
 /* ! Header part */

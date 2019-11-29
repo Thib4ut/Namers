@@ -9,11 +9,26 @@
 :root {
   --primary: #19a635;
   --secondary: #263b2a;
-  --family-title: "'Calistoga', cursive";
+  --family-title: "Calistoga, cursive";
   --family: "Arial";
+  /*--f: "'Calistoga', cursive";*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffeeff;
+  font-family: var(--family);
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Header part */
 
+header.header {
+  margin:
+}
 
 /* ! Header part */

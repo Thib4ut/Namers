@@ -65,7 +65,12 @@ nav.navbar a.nav-link:hover {
 /* Presentation */
 
 section.present {
-  
+  width: 100%;
+  transition: background 0.3s;
+  height: 300px;
+  padding: 10px 20px;
+  text-align: center;
+  color: #fff;
 }
 
 /* !Presentation */

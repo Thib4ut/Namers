@@ -4,11 +4,11 @@ function BannerAnimation (element) {
   var elem = element;
   element.style.background = "#19a635";
   setInterval(() => {
-    element.style.background = "#263b2a";
+    element.style.background = "#04b344";
     setTimeout(() => {
         element.style.background = "#19a635";
-    }, 1000)
-  }, 2000)
+    }, 2500)
+  }, 5000)
 }
 
 BannerAnimation(Banner);
